@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Footballwiki</title>
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="./hlavnistranka.html"><i class="bi bi-globe2"> Footballwiki</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Leagues
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./leagues/champions.html">Champions league</a></li>
+              <li><a class="dropdown-item" href="./leagues/europa.html">Europa league</a></li>
+              <li><a class="dropdown-item" href="./leagues/conference.html">Conference league</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Teams
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./teams/barcelona.html">Fc Barcelona</a></li>
+              <li><a class="dropdown-item" href="./teams/dortmund.html">Borussia Dortmund</a></li>
+              <li><a class="dropdown-item" href="./teams/slovacko.html">1. Fc Slovácko</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide m-1">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./picture/Champions_league.jpg" class="d-block w-100" alt="Champions_league">
+      </div>
+      <div class="carousel-item">
+        <img src="./picture/Europa_league.jpg" class="d-block w-100" alt="Europa_league">
+      </div>
+      <div class="carousel-item">
+        <img src="./picture/Conference_league.jpg" class="d-block w-100" alt="Conference_league">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./picture/milan_vs_napoli.webp" class="card-img-top" alt="milan_vs_napoli">
+        <div class="card-body">
+          <h5 class="card-title">First Milan semis in 16 years</h5>
+          <p class="card-text">It's a draw. A missed penalty by Kvaracchelia sends Milan into the semi-finals. Milan will play their first semi-final since 2007, when they won the tournament.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./picture/real_madrid_beat_chelsea.jpg" class="card-img-top" alt="real_madrid_beat_chelsea">
+        <div class="card-body">
+          <h5 class="card-title">Madrid secures promotion</h5>
+          <p class="card-text">Real Madrid beat a struggling Chelsea at Stamford Bridge. The Blues defeat was led by a two-goal Rodrygo. The 14-time champions are one step closer to another title.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./picture/Fiorentina_vs_Lec_Poznan.jpg" class="card-img-top" alt="Fiorentina_vs_Lec_Poznan">
+        <div class="card-body">
+          <h5 class="card-title">Will Poznan make a comeback?</h5>
+          <p class="card-text">Fiorentina won 4:1 against Lech Poznan in the first match of the Conference League quarter-finals.Arthur Cabral, who was on form in the fourth minute, kicked off the win and moved to the top of the scorers' table.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 m-4">
+  <img src="./picture/Champions_League_Bracket.png" class="card-img-top" alt="quarterfinals">
+  <div class="card-body">
+    <h5 class="card-title text-center">Quarterfinals are in progress</h5>
+    <p class="card-text">The quarterfinals are coming to an end, but right now the teams have to do their best. Can you pick a winner? Fill in the questionnaire to win exciting prizes like two tickets to next year's Champions League final, a signed jersey from the winning team's captain and much more... Just give it a try!!!</p>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+      <a href="./tip.html" class="btn btn-primary" tabindex="-1" role="button">Check it out!!!</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="align-items-center py-3 my-4 border-top container">
+  <div class="row">
+    <span class="col text-muted text-center">© 2023 Footballwiki</span>
+    <span class="col text-muted text-center">Something wrong? <a href="./dotazník.html">Click here</a></span>
+    <span class="col text-muted text-center">Made by Antonín Severa</span>
+  </div>
+</footer>
+</body>
+</html>
